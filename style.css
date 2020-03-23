@@ -184,7 +184,7 @@ blockquote p {
 }
 
 .home-content {
-    /* font-family: inherit !important; */
+    font-family: inherit !important;
     font-size: 1.7rem !important;
     margin-bottom: 2.8rem !important;
     color: #141626;
