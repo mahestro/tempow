@@ -118,7 +118,41 @@ h1.entry-title {
 }
 
 h2.entry-title {
-    font-size: 4rem;
+    font-size: 3.4rem;
+}
+
+h1,
+.heading-size-1 {
+    font-size: 6.8rem;
+}
+
+h2,
+.heading-size-2 {
+    font-size: 3.8rem;
+}
+
+h3,
+.heading-size-3 {
+    font-size: 3.2rem;
+}
+
+h4,
+.heading-size-4 {
+    font-size: 2.8rem;
+}
+
+h5,
+.heading-size-5 {
+    font-size: 2.2rem;
+}
+
+h6,
+.heading-size-6 {
+    font-size: 2rem;
+}
+
+.entry-categories a {
+    font-size: 1.3rem;
 }
 
 .entry-content p,
