@@ -1,0 +1,259 @@
+/*
+ Theme Name:   Five Minute Human
+ Author:       mahestro
+ Author URI:   http://fiveminutehuman.com
+ Template:     twentytwenty
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+@font-face {
+    font-family: 'Permanent Marker';
+    src: url('./assets/fonts/permanentmarker/PermanentMarker-Regular.eot');
+    src: url('./assets/fonts/permanentmarker/PermanentMarker-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/permanentmarker/PermanentMarker-Regular.woff2') format('woff2'),
+        url('./assets/fonts/permanentmarker/PermanentMarker-Regular.woff') format('woff'),
+        url('./assets/fonts/permanentmarker/PermanentMarker-Regular.ttf') format('truetype'),
+        url('./assets/fonts/permanentmarker/PermanentMarker-Regular.svg#PermanentMarker-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('./assets/fonts/playfair/PlayfairDisplay-SemiBoldItalic.eot');
+    src: local('Playfair Display SemiBold Italic'), local('PlayfairDisplay-SemiBoldItalic'),
+        url('./assets/fonts/playfair/PlayfairDisplay-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/playfair/PlayfairDisplay-SemiBoldItalic.woff2') format('woff2'),
+        url('./assets/fonts/playfair/PlayfairDisplay-SemiBoldItalic.woff') format('woff'),
+        url('./assets/fonts/playfair/PlayfairDisplay-SemiBoldItalic.ttf') format('truetype'),
+        url('./assets/fonts/playfair/PlayfairDisplay-SemiBoldItalic.svg#PlayfairDisplay-SemiBoldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('./assets/fonts/playfair/PlayfairDisplay-Regular.eot');
+    src: local('Playfair Display Regular'), local('PlayfairDisplay-Regular'),
+        url('./assets/fonts/playfair/PlayfairDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/playfair/PlayfairDisplay-Regular.woff2') format('woff2'),
+        url('./assets/fonts/playfair/PlayfairDisplay-Regular.woff') format('woff'),
+        url('./assets/fonts/playfair/PlayfairDisplay-Regular.ttf') format('truetype'),
+        url('./assets/fonts/playfair/PlayfairDisplay-Regular.svg#PlayfairDisplay-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('./assets/fonts/playfair/PlayfairDisplay-MediumItalic.eot');
+    src: local('Playfair Display Medium Italic'), local('PlayfairDisplay-MediumItalic'),
+        url('./assets/fonts/playfair/PlayfairDisplay-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/playfair/PlayfairDisplay-MediumItalic.woff2') format('woff2'),
+        url('./assets/fonts/playfair/PlayfairDisplay-MediumItalic.woff') format('woff'),
+        url('./assets/fonts/playfair/PlayfairDisplay-MediumItalic.ttf') format('truetype'),
+        url('./assets/fonts/playfair/PlayfairDisplay-MediumItalic.svg#PlayfairDisplay-MediumItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('./assets/fonts/playfair/PlayfairDisplay-Medium.eot');
+    src: local('Playfair Display Medium'), local('PlayfairDisplay-Medium'),
+        url('./assets/fonts/playfair/PlayfairDisplay-Medium.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/playfair/PlayfairDisplay-Medium.woff2') format('woff2'),
+        url('./assets/fonts/playfair/PlayfairDisplay-Medium.woff') format('woff'),
+        url('./assets/fonts/playfair/PlayfairDisplay-Medium.ttf') format('truetype'),
+        url('./assets/fonts/playfair/PlayfairDisplay-Medium.svg#PlayfairDisplay-Medium') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('./assets/fonts/playfair/PlayfairDisplay-SemiBold.eot');
+    src: local('Playfair Display SemiBold'), local('PlayfairDisplay-SemiBold'),
+        url('./assets/fonts/playfair/PlayfairDisplay-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/playfair/PlayfairDisplay-SemiBold.woff2') format('woff2'),
+        url('./assets/fonts/playfair/PlayfairDisplay-SemiBold.woff') format('woff'),
+        url('./assets/fonts/playfair/PlayfairDisplay-SemiBold.ttf') format('truetype'),
+        url('./assets/fonts/playfair/PlayfairDisplay-SemiBold.svg#PlayfairDisplay-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('./assets/fonts/playfair/PlayfairDisplay-Italic.eot');
+    src: local('Playfair Display Italic'), local('PlayfairDisplay-Italic'),
+        url('./assets/fonts/playfair/PlayfairDisplay-Italic.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/playfair/PlayfairDisplay-Italic.woff2') format('woff2'),
+        url('./assets/fonts/playfair/PlayfairDisplay-Italic.woff') format('woff'),
+        url('./assets/fonts/playfair/PlayfairDisplay-Italic.ttf') format('truetype'),
+        url('./assets/fonts/playfair/PlayfairDisplay-Italic.svg#PlayfairDisplay-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+body {
+	background: #547478;
+    color: #141626;
+}
+
+.section-inner {
+	max-width: 90rem;
+}
+
+.singular .entry-header {
+    background-color: #fff;
+    color: #ac4d37;
+}
+
+h1.entry-title {
+    font-family: "Permanent Marker";
+    color: #000;
+}
+
+h2.entry-title {
+    font-size: 4rem;
+}
+
+.entry-content p,
+.entry-content ul, 
+.entry-content ol {
+    font-family: "Playfair Display";
+}
+
+.entry-content p {
+    margin-bottom: 5rem;
+}
+
+.entry-content h1,
+.entry-content h2,
+.entry-content h3 {
+    margin: 8rem auto 4rem;
+}
+
+.entry-content li {
+    margin-left: 5rem;
+}
+
+blockquote p {
+    font-size: 1.2em;
+}
+
+.entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
+	max-width: 62rem;
+}
+
+.home-content {
+    /* font-family: inherit !important; */
+    font-size: 1.7rem !important;
+    margin-bottom: 2.8rem !important;
+    color: #141626;
+}
+
+/* CUSTOM COLORS */
+
+:root .has-accent-color {
+	color: #ac4d37;
+}
+
+:root .has-accent-background-color {
+	background-color: #ac4d37;
+	color: #fff;
+}
+
+:root .has-primary-color {
+	color: #000;
+}
+
+:root .has-primary-background-color {
+	background-color: #000;
+	color: #f5efe0;
+}
+
+/* COLOR */
+
+.color-accent,
+.color-accent-hover:focus,
+.color-accent-hover:hover {
+	color: #ac4d37;
+}
+
+/* BACKGROUND COLOR */
+
+.bg-accent,
+.bg-accent-hover:focus,
+.bg-accent-hover:hover {
+	background-color: #ac4d37;
+}
+
+/* BORDER COLOR */
+
+.border-color-accent,
+.border-color-accent-hover:focus,
+.border-color-accent-hover:hover {
+	border-color: #ac4d37;
+}
+
+/* FILL COLOR */
+
+.fill-children-accent,
+.fill-children-accent * {
+	fill: #ac4d37;
+}
+
+.social-icons a {
+	background: #ac4d37;
+}
+
+.wp-block-button.is-style-outline {
+	color: #ac4d37;
+}
+
+a,
+.primary-menu a,
+body:not(.overlay-header) .primary-menu > li > a {
+	color: #ac4d37;
+}
+
+.primary-menu li.current-menu-item > a,
+.primary-menu li.current-menu-item > .link-icon-wrapper > a {
+    color: #547478 !important;
+    text-decoration: none;
+}
+
+blockquote {
+	border-color: #ac4d37;
+}
+
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	background: #ac4d37;
+}
+
+
+.reduced-spacing.footer-top-visible .footer-nav-widgets-wrapper, .reduced-spacing.footer-top-hidden #site-footer {
+    border-top: none;
+}
+
+.footer-inner {
+    border-top: 0.1rem #dcd7ca solid;
+}
+
+#mc_embed_signup .mc-fields {
+    display: flex;
+}
+
+#mc_embed_signup .mc-fields input[type="email"] {
+    width: 65%;
+}
+
+#mc_embed_signup .mc-fields input[type="submit"] {
+    margin-left: 0.5rem;
+}
