@@ -252,7 +252,14 @@ blockquote p {
 a,
 .primary-menu a,
 body:not(.overlay-header) .primary-menu > li > a {
-	color: #ac4d37;
+    color: #ac4d37;
+    text-decoration: none;
+}
+
+.primary-menu a:hover,
+body:not(.overlay-header) .primary-menu > li > a:hover {
+    color: #547478 !important;
+    text-decoration: underline;
 }
 
 .primary-menu li.current-menu-item > a,
