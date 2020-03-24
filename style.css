@@ -190,6 +190,14 @@ blockquote p {
     color: #141626;
 }
 
+.home-blockquote p {
+    margin-bottom: 2rem;
+}
+
+.home-blockquote cite {
+    margin: 0;
+}
+
 /* CUSTOM COLORS */
 
 :root .has-accent-color {
