@@ -256,10 +256,10 @@ body:not(.overlay-header) .primary-menu > li > a {
     text-decoration: none;
 }
 
+a:hover,
 .primary-menu a:hover,
 body:not(.overlay-header) .primary-menu > li > a:hover {
-    color: #547478 !important;
-    text-decoration: underline;
+    text-decoration: underline !important;
 }
 
 .primary-menu li.current-menu-item > a,
