@@ -307,6 +307,6 @@ input[type="submit"] {
 }
 
 /*remove date*/
-li.post-date .meta-wrapper {
+.post-date {
     display: none !important;
 }
