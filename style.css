@@ -305,3 +305,8 @@ input[type="submit"] {
 #mc_embed_signup .mc-fields input[type="submit"] {
     margin-left: 0.5rem;
 }
+
+/*remove date*/
+.post-date meta-wrapper {
+    display: none;
+}
