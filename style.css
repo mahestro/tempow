@@ -1,7 +1,7 @@
 /*
- Theme Name:   Five Minute Human
+ Theme Name:   Tempow
  Author:       mahestro
- Author URI:   http://fiveminutehuman.com
+ Author URI:   http://tempow.com.ve
  Template:     twentytwenty
  Version:      1.0.0
  License:      GNU General Public License v2 or later
@@ -9,92 +9,119 @@
 */
 
 @font-face {
-    font-family: 'Permanent Marker';
-    src: url('./assets/fonts/permanentmarker/PermanentMarker-Regular.eot');
-    src: url('./assets/fonts/permanentmarker/PermanentMarker-Regular.eot?#iefix') format('embedded-opentype'),
-        url('./assets/fonts/permanentmarker/PermanentMarker-Regular.woff2') format('woff2'),
-        url('./assets/fonts/permanentmarker/PermanentMarker-Regular.woff') format('woff'),
-        url('./assets/fonts/permanentmarker/PermanentMarker-Regular.ttf') format('truetype'),
-        url('./assets/fonts/permanentmarker/PermanentMarker-Regular.svg#PermanentMarker-Regular') format('svg');
+    font-family: 'Gloria Hallelujah';
+    src: url('./assets/fonts/gloriahallelujah/gloriahallelujah.eot');
+    src: url('./assets/fonts/gloriahallelujah/gloriahallelujah.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/gloriahallelujah/gloriahallelujah.woff2') format('woff2'),
+        url('./assets/fonts/gloriahallelujah/gloriahallelujah.woff') format('woff'),
+        url('./assets/fonts/gloriahallelujah/gloriahallelujah.ttf') format('truetype'),
+        url('./assets/fonts/gloriahallelujah/gloriahallelujah.svg#gloriahallelujah') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Playfair Display';
-    src: url('./assets/fonts/playfair/PlayfairDisplay-SemiBoldItalic.eot');
-    src: local('Playfair Display SemiBold Italic'), local('PlayfairDisplay-SemiBoldItalic'),
-        url('./assets/fonts/playfair/PlayfairDisplay-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
-        url('./assets/fonts/playfair/PlayfairDisplay-SemiBoldItalic.woff2') format('woff2'),
-        url('./assets/fonts/playfair/PlayfairDisplay-SemiBoldItalic.woff') format('woff'),
-        url('./assets/fonts/playfair/PlayfairDisplay-SemiBoldItalic.ttf') format('truetype'),
-        url('./assets/fonts/playfair/PlayfairDisplay-SemiBoldItalic.svg#PlayfairDisplay-SemiBoldItalic') format('svg');
-    font-weight: 600;
+    font-family: 'Lato';
+    src: url('./assets/fonts/lato/Lato-LightItalic.eot');
+    src: local('Lato SemiBold Italic'), local('Lato-LightItalic'),
+        url('./assets/fonts/lato/Lato-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/lato/Lato-LightItalic.woff2') format('woff2'),
+        url('./assets/fonts/lato/Lato-LightItalic.woff') format('woff'),
+        url('./assets/fonts/lato/Lato-LightItalic.ttf') format('truetype'),
+        url('./assets/fonts/lato/Lato-LightItalic.svg#Lato-LightItalic') format('svg');
+    font-weight: 300;
     font-style: italic;
 }
 
 @font-face {
-    font-family: 'Playfair Display';
-    src: url('./assets/fonts/playfair/PlayfairDisplay-Regular.eot');
-    src: local('Playfair Display Regular'), local('PlayfairDisplay-Regular'),
-        url('./assets/fonts/playfair/PlayfairDisplay-Regular.eot?#iefix') format('embedded-opentype'),
-        url('./assets/fonts/playfair/PlayfairDisplay-Regular.woff2') format('woff2'),
-        url('./assets/fonts/playfair/PlayfairDisplay-Regular.woff') format('woff'),
-        url('./assets/fonts/playfair/PlayfairDisplay-Regular.ttf') format('truetype'),
-        url('./assets/fonts/playfair/PlayfairDisplay-Regular.svg#PlayfairDisplay-Regular') format('svg');
+    font-family: 'Lato';
+    src: url('./assets/fonts/lato/Lato-Light.eot');
+    src: local('Lato Medium Italic'), local('PlayfairDisplay-Light'),
+        url('./assets/fonts/lato/Lato-Light.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/lato/Lato-Light.woff2') format('woff2'),
+        url('./assets/fonts/lato/Lato-Light.woff') format('woff'),
+        url('./assets/fonts/lato/Lato-Light.ttf') format('truetype'),
+        url('./assets/fonts/lato/Lato-Light.svg#Lato-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('./assets/fonts/lato/Lato-Regular.eot');
+    src: local('Lato Regular'), local('Lato-Regular'),
+        url('./assets/fonts/lato/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/lato/Lato-Regular.woff2') format('woff2'),
+        url('./assets/fonts/lato/Lato-Regular.woff') format('woff'),
+        url('./assets/fonts/lato/Lato-Regular.ttf') format('truetype'),
+        url('./assets/fonts/lato/Lato-Regular.svg#Lato-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Playfair Display';
-    src: url('./assets/fonts/playfair/PlayfairDisplay-MediumItalic.eot');
-    src: local('Playfair Display Medium Italic'), local('PlayfairDisplay-MediumItalic'),
-        url('./assets/fonts/playfair/PlayfairDisplay-MediumItalic.eot?#iefix') format('embedded-opentype'),
-        url('./assets/fonts/playfair/PlayfairDisplay-MediumItalic.woff2') format('woff2'),
-        url('./assets/fonts/playfair/PlayfairDisplay-MediumItalic.woff') format('woff'),
-        url('./assets/fonts/playfair/PlayfairDisplay-MediumItalic.ttf') format('truetype'),
-        url('./assets/fonts/playfair/PlayfairDisplay-MediumItalic.svg#PlayfairDisplay-MediumItalic') format('svg');
-    font-weight: bold;
+    font-family: 'Lato';
+    src: url('./assets/fonts/lato/Lato-Italic.eot');
+    src: local('Lato Italic'), local('Lato-Italic'),
+        url('./assets/fonts/lato/Lato-Italic.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/lato/Lato-Italic.woff2') format('woff2'),
+        url('./assets/fonts/lato/Lato-Italic.woff') format('woff'),
+        url('./assets/fonts/lato/Lato-Italic.ttf') format('truetype'),
+        url('./assets/fonts/lato/Lato-Italic.svg#Lato-Italic') format('svg');
+    font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
-    font-family: 'Playfair Display';
-    src: url('./assets/fonts/playfair/PlayfairDisplay-Medium.eot');
-    src: local('Playfair Display Medium'), local('PlayfairDisplay-Medium'),
-        url('./assets/fonts/playfair/PlayfairDisplay-Medium.eot?#iefix') format('embedded-opentype'),
-        url('./assets/fonts/playfair/PlayfairDisplay-Medium.woff2') format('woff2'),
-        url('./assets/fonts/playfair/PlayfairDisplay-Medium.woff') format('woff'),
-        url('./assets/fonts/playfair/PlayfairDisplay-Medium.ttf') format('truetype'),
-        url('./assets/fonts/playfair/PlayfairDisplay-Medium.svg#PlayfairDisplay-Medium') format('svg');
+    font-family: 'Lato';
+    src: url('./assets/fonts/lato/Lato-Bold.eot');
+    src: local('Lato Bold'), local('Lato-Bold'),
+        url('./assets/fonts/lato/Lato-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/lato/Lato-Bold.woff2') format('woff2'),
+        url('./assets/fonts/lato/Lato-Bold.woff') format('woff'),
+        url('./assets/fonts/lato/Lato-Bold.ttf') format('truetype'),
+        url('./assets/fonts/lato/Lato-Bold.svg#Lato-Bold') format('svg');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Playfair Display';
-    src: url('./assets/fonts/playfair/PlayfairDisplay-SemiBold.eot');
-    src: local('Playfair Display SemiBold'), local('PlayfairDisplay-SemiBold'),
-        url('./assets/fonts/playfair/PlayfairDisplay-SemiBold.eot?#iefix') format('embedded-opentype'),
-        url('./assets/fonts/playfair/PlayfairDisplay-SemiBold.woff2') format('woff2'),
-        url('./assets/fonts/playfair/PlayfairDisplay-SemiBold.woff') format('woff'),
-        url('./assets/fonts/playfair/PlayfairDisplay-SemiBold.ttf') format('truetype'),
-        url('./assets/fonts/playfair/PlayfairDisplay-SemiBold.svg#PlayfairDisplay-SemiBold') format('svg');
+    font-family: 'Lato';
+    src: url('./assets/fonts/lato/Lato-BoldItalic.eot');
+    src: local('Lato BoldItalic'), local('Lato-Bold-Italic'),
+        url('./assets/fonts/lato/Lato-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/lato/Lato-BoldItalic.woff2') format('woff2'),
+        url('./assets/fonts/lato/Lato-BoldItalic.woff') format('woff'),
+        url('./assets/fonts/lato/Lato-BoldItalic.ttf') format('truetype'),
+        url('./assets/fonts/lato/Lato-BoldItalic.svg#Lato-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Lato';
+    src: url('./assets/fonts/lato/Lato-Black.eot');
+    src: local('Lato Black'), local('Lato-Black'),
+        url('./assets/fonts/lato/Lato-Black.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/lato/Lato-Black.woff2') format('woff2'),
+        url('./assets/fonts/lato/Lato-Black.woff') format('woff'),
+        url('./assets/fonts/lato/Lato-Black.ttf') format('truetype'),
+        url('./assets/fonts/lato/Lato-Black.svg#Lato-Black') format('svg');
     font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Playfair Display';
-    src: url('./assets/fonts/playfair/PlayfairDisplay-Italic.eot');
-    src: local('Playfair Display Italic'), local('PlayfairDisplay-Italic'),
-        url('./assets/fonts/playfair/PlayfairDisplay-Italic.eot?#iefix') format('embedded-opentype'),
-        url('./assets/fonts/playfair/PlayfairDisplay-Italic.woff2') format('woff2'),
-        url('./assets/fonts/playfair/PlayfairDisplay-Italic.woff') format('woff'),
-        url('./assets/fonts/playfair/PlayfairDisplay-Italic.ttf') format('truetype'),
-        url('./assets/fonts/playfair/PlayfairDisplay-Italic.svg#PlayfairDisplay-Italic') format('svg');
-    font-weight: normal;
+    font-family: 'Lato';
+    src: url('./assets/fonts/lato/Lato-BlackItalic.eot');
+    src: local('Lato Black Italic'), local('Lato-Black-Italic'),
+        url('./assets/fonts/lato/Lato-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/lato/Lato-BlackItalic.woff2') format('woff2'),
+        url('./assets/fonts/lato/Lato-BlackItalic.woff') format('woff'),
+        url('./assets/fonts/lato/Lato-BlackItalic.ttf') format('truetype'),
+        url('./assets/fonts/lato/Lato-BlackItalic.svg#Lato-BlackItalic') format('svg');
+    font-weight: 600;
     font-style: italic;
 }
 
@@ -113,7 +140,7 @@ body {
 }
 
 h1.entry-title {
-    font-family: "Permanent Marker";
+    font-family: "Gloria Hallelujah";
     color: #000;
 }
 
@@ -158,7 +185,7 @@ h6,
 .entry-content p,
 .entry-content ul, 
 .entry-content ol {
-    font-family: "Playfair Display";
+    font-family: "Lato";
 }
 
 .entry-content p {
