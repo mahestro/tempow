@@ -1,1 +1,1 @@
-Wordpress Child theme for personal blog.
+Wordpress Child theme for ecommerce.

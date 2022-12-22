@@ -126,8 +126,9 @@
 }
 
 body {
-	background: #547478;
+	background: #fff;
     color: #141626;
+    background: #020205 url(./assets/i/pattern-single.png) repeat center center;
 }
 
 .section-inner {
@@ -136,12 +137,12 @@ body {
 
 .singular .entry-header {
     background-color: #fff;
-    color: #ac4d37;
+    color: #1F1E21;
 }
 
 h1.entry-title {
     font-family: "Gloria Hallelujah";
-    color: #000;
+    color: #1F1E21;
 }
 
 h2.entry-title {
@@ -186,6 +187,7 @@ h6,
 .entry-content ul, 
 .entry-content ol {
     font-family: "Lato";
+    font-size: 1.8rem;
 }
 
 .entry-content p {
@@ -227,11 +229,11 @@ blockquote p {
 /* CUSTOM COLORS */
 
 :root .has-accent-color {
-	color: #ac4d37;
+	color: #AA3168;
 }
 
 :root .has-accent-background-color {
-	background-color: #ac4d37;
+	background-color: #AA3168;
 	color: #fff;
 }
 
@@ -249,7 +251,7 @@ blockquote p {
 .color-accent,
 .color-accent-hover:focus,
 .color-accent-hover:hover {
-	color: #ac4d37;
+	color: #E22381;
 }
 
 /* BACKGROUND COLOR */
@@ -257,7 +259,7 @@ blockquote p {
 .bg-accent,
 .bg-accent-hover:focus,
 .bg-accent-hover:hover {
-	background-color: #ac4d37;
+	background-color: #E22381;
 }
 
 /* BORDER COLOR */
@@ -265,28 +267,28 @@ blockquote p {
 .border-color-accent,
 .border-color-accent-hover:focus,
 .border-color-accent-hover:hover {
-	border-color: #ac4d37;
+	border-color: #E22381;
 }
 
 /* FILL COLOR */
 
 .fill-children-accent,
 .fill-children-accent * {
-	fill: #ac4d37;
+	fill: #E22381;
 }
 
 .social-icons a {
-	background: #ac4d37;
+	background: #E22381;
 }
 
 .wp-block-button.is-style-outline {
-	color: #ac4d37;
+	color: #E22381;
 }
 
 a,
 .primary-menu a,
 body:not(.overlay-header) .primary-menu > li > a {
-    color: #ac4d37;
+    color: #E22381;
     text-decoration: none;
 }
 
@@ -303,13 +305,13 @@ body:not(.overlay-header) .primary-menu > li > a:hover {
 }
 
 blockquote {
-	border-color: #ac4d37;
+	border-color: #E22381;
 }
 
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-	background: #ac4d37;
+	background: #E22381;
 }
 
 
@@ -333,7 +335,49 @@ input[type="submit"] {
     margin-left: 0.5rem;
 }
 
-/*remove date*/
-.post-date {
-    display: none !important;
+.cover {
+    height: 445px;
+    background: url(./assets/i/header-klave.jpg) no-repeat top center;
+    background-size: auto 445px;
+}
+
+.content-box {
+    position: relative;
+    width: 724px;
+    top: -100px;
+    margin: 0 auto;
+    padding: 20px 20px 40px;
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+.content-box .content-box__heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-box h1, .content-box h2, .content-box h3 {
+    margin: 0 !important;
+}
+
+.content-box .content-box__heading .content-box__heading__title {
+}
+
+.content-box .content-box__heading .content-box__heading__price {
+}
+
+.content-box .content-box__heading .content-box__heading__price .content-box__heading__price--off {
+    color: #B1BAC4;
+    font-size: 24px;
+    text-decoration: line-through;
+    font-weight: normal;
+}
+
+.content-box .content-box__summary {
+    width: 480px;
+    padding: 25px 0 0 0;
+}
+
+.content-box .content-box__form {
+    padding: 40px 0 0 0;
 }
