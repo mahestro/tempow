@@ -335,6 +335,13 @@ input[type="submit"] {
     margin-left: 0.5rem;
 }
 
+.wp-block-cover__inner-container h1 {
+    font-family: "Gloria Hallelujah";
+    color: #fff !important;
+    font-size: 5.8rem !important;
+    margin: 0 auto !important;
+}
+
 .cover {
     height: 445px;
     background: url(./assets/i/header-klave.jpg) no-repeat top center;
