@@ -367,11 +367,11 @@ input[type="submit"] {
     margin: 0 !important;
 }
 
-.content-box .content-box__heading .content-box__heading__title {
+/* .content-box .content-box__heading .content-box__heading__title {
 }
 
 .content-box .content-box__heading .content-box__heading__price {
-}
+} */
 
 .content-box .content-box__heading .content-box__heading__price .content-box__heading__price--off {
     color: #B1BAC4;
