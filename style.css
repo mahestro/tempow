@@ -141,7 +141,7 @@ body {
 }
 
 h1.entry-title {
-    font-family: "Gloria Hallelujah";
+    font-family: 'Gloria Hallelujah';
     color: #1F1E21;
 }
 
@@ -336,7 +336,9 @@ input[type="submit"] {
 }
 
 .wp-block-cover__inner-container h1 {
-    font-family: "Gloria Hallelujah";
+    font-family: 'Gloria Hallelujah' !important;
+    font-weight: normal !important;
+    font-style: normal !important;
     color: #fff !important;
     font-size: 5.8rem !important;
     margin: 0 auto !important;
@@ -351,7 +353,7 @@ input[type="submit"] {
 .content-box {
     position: relative;
     width: 724px;
-    top: -100px;
+    top: -60px;
     margin: 0 auto;
     padding: 20px 20px 40px;
     background-color: #fff;
@@ -387,4 +389,23 @@ input[type="submit"] {
 
 .content-box .content-box__form {
     padding: 40px 0 0 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .content-box {
+        width: auto;
+        padding: 10px 10px 20px;
+    }
+    
+    #mc_embed_signup .mc-fields {
+        display: block;
+    }    
+
+    #mc_embed_signup .mc-fields input[type="email"], #mc_embed_signup .mc-fields input[type="submit"] {
+        width: 100%;
+    }    
+    
+    #mc_embed_signup .mc-fields input[type="submit"] {
+        margin-top: 10px;
+    }
 }
