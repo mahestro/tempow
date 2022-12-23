@@ -345,7 +345,7 @@ input[type="submit"] {
 }
 
 .cover {
-    height: 445px;
+    height: 390px;
     background: url(./assets/i/header-klave.jpg) no-repeat top center;
     background-size: auto 445px;
 }
@@ -353,7 +353,7 @@ input[type="submit"] {
 .content-box {
     position: relative;
     width: 724px;
-    top: -60px;
+    top: -40px;
     margin: 0 auto;
     padding: 20px 20px 40px;
     background-color: #fff;
@@ -365,7 +365,9 @@ input[type="submit"] {
     justify-content: space-between;
 }
 
-.content-box h1, .content-box h2, .content-box h3 {
+.content-box h1,
+.content-box h2,
+.content-box h3 {
     margin: 0 !important;
 }
 
@@ -392,9 +394,26 @@ input[type="submit"] {
 }
 
 @media only screen and (max-width: 600px) {
+    .cover {
+        height: 300px;
+        background-size: auto 280px;
+    }
+
     .content-box {
-        width: auto;
+        width: 96%;
         padding: 10px 10px 20px;
+    }
+
+    .content-box h1 {
+        font-size: 5.8rem;
+    }
+
+    .content-box h2 {
+        font-size: 3rem;
+    }
+
+    .content-box h3 {
+        font-size: 1.4rem;
     }
     
     #mc_embed_signup .mc-fields {
@@ -407,5 +426,15 @@ input[type="submit"] {
     
     #mc_embed_signup .mc-fields input[type="submit"] {
         margin-top: 10px;
+    }
+
+    .content-box__summary,
+    .entry-content {
+        width: auto !important;
+        max-width: auto !important;
+    }
+
+    .entry-content p {
+        font-size: 1.7rem !important;
     }
 }
